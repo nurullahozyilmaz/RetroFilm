@@ -1,0 +1,25 @@
+# PHP önbellek dosyaları
+*.log
+*.tmp
+*.cache
+
+# IDE ve editör dosyaları
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Geçici dosyalar
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# Kütüphaneler ve bağımlılıklar
+/vendor/
+node_modules/
+
+# XAMPP veya benzeri yerel geliştirme ortamları için
+/htdocs/*
+!/.gitignore
+!/.htaccess
